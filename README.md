@@ -23,11 +23,15 @@ db.sudheshna.insertOne({title:"wash clothes",completed:"false",dueDate:"2025-28-
   acknowledged: true,
   insertedId: ObjectId('6836e3303b607dc4240f3f43')
 }
+
+
 db.sudheshna.insertOne({title:"cook food",completed:"true","dueDate":"2025-28-05"})
 {
   acknowledged: true,
   insertedId: ObjectId('6836e3553b607dc4240f3f44')
 }
+
+
 db.sudheshna.insertMany([{title:"exercise",completed:"true",dueDate:"2025-26-05"},{title:"organize desk",completed:"true","dueDate":"2025-27-05"}])
 {
   acknowledged: true,
@@ -36,6 +40,8 @@ db.sudheshna.insertMany([{title:"exercise",completed:"true",dueDate:"2025-26-05"
     '1': ObjectId('6836e4f73b607dc4240f3f46')
   }
 }
+
+
 db.sudheshna.insertMany([{title:"call mom",completed:"false",dueDate:"2025-28-04"},{title:"read novel",completed:"false","dueDate":"2025-22-05"}])
 {
   acknowledged: true,
@@ -44,6 +50,8 @@ db.sudheshna.insertMany([{title:"call mom",completed:"false",dueDate:"2025-28-04
     '1': ObjectId('6836e55d3b607dc4240f3f48')
   }
 }
+
+
 db.sudheshna.insertMany([{title:"pay electricity bill",completed:"true",dueDate:"2025-01-05"},{title:"reply to mail",completed:"true","dueDate":"2025-12-05"}])
 {
   acknowledged: true,
@@ -52,6 +60,8 @@ db.sudheshna.insertMany([{title:"pay electricity bill",completed:"true",dueDate:
     '1': ObjectId('6836e5a73b607dc4240f3f4a')
   }
 }
+
+
 db.sudheshna.find()
 {
   _id: ObjectId('6836e1f73b607dc4240f3f41'),
@@ -59,54 +69,71 @@ db.sudheshna.find()
   completed: 'false',
   dueDate: '2025-06-01'
 }
+
+
 {
   _id: ObjectId('6836e2333b607dc4240f3f42'),
   title: 'study for exam',
   completed: 'true',
   dueDate: '2025-19-01'
 }
+
+
 {
   _id: ObjectId('6836e3303b607dc4240f3f43'),
   title: 'wash clothes',
   completed: 'false',
   dueDate: '2025-28-05'
 }
+
+
 {
   _id: ObjectId('6836e3553b607dc4240f3f44'),
   title: 'cook food',
   completed: 'true',
   dueDate: '2025-28-05'
 }
+
+
 {
   _id: ObjectId('6836e4f73b607dc4240f3f45'),
   title: 'exercise',
   completed: 'true',
   dueDate: '2025-26-05'
 }
+
+
 {
   _id: ObjectId('6836e4f73b607dc4240f3f46'),
   title: 'organize desk',
   completed: 'true',
   dueDate: '2025-27-05'
 }
+
+
 {
   _id: ObjectId('6836e55d3b607dc4240f3f47'),
   title: 'call mom',
   completed: 'false',
   dueDate: '2025-28-04'
 }
+
 {
   _id: ObjectId('6836e55d3b607dc4240f3f48'),
   title: 'read novel',
   completed: 'false',
   dueDate: '2025-22-05'
 }
+
+
 {
   _id: ObjectId('6836e5a73b607dc4240f3f49'),
   title: 'pay electricity bill',
   completed: 'true',
   dueDate: '2025-01-05'
 }
+
+
 {
   _id: ObjectId('6836e5a73b607dc4240f3f4a'),
   title: 'reply to mail',
