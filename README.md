@@ -1,4 +1,4 @@
-# mongo_ass
+<pre># mongo_ass
 
 use to-do-list
 switched to db to-do-list
@@ -934,3 +934,4 @@ db.sudheshna.find({
   priority: "High",
   DueDate: new Date("2025-05-28T16:00:00.000Z")
 })
+</pre>
