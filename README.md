@@ -4,16 +4,20 @@ use to-do-list
 switched to db to-do-list
 db["sudheshna"].find()
 {}
+
+
 db.sudheshna.insertOne({title:"buy groceries",completed:"false",dueDate:"2025-06-01"})
 {
   acknowledged: true,
   insertedId: ObjectId('6836e1f73b607dc4240f3f41')
 }
+
 db.sudheshna.insertOne({title:"study for exam",completed:"true",dueDate:"2025-19-01"})
 {
   acknowledged: true,
   insertedId: ObjectId('6836e2333b607dc4240f3f42')
 }
+
 db.sudheshna.insertOne({title:"wash clothes",completed:"false",dueDate:"2025-28-05"})
 {
   acknowledged: true,
